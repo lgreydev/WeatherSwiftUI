@@ -13,6 +13,7 @@
 		5E2C96A125DB0152004BD4DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2C96A025DB0152004BD4DD /* Preview Assets.xcassets */; };
 		5E2C96AF25DBE279004BD4DD /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96AE25DBE279004BD4DD /* API.swift */; };
 		5E2C96B325DBE377004BD4DD /* API+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96B225DBE377004BD4DD /* API+Extensions.swift */; };
+		5E2C96B625DC14F0004BD4DD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96B525DC14F0004BD4DD /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5E2C96A225DB0152004BD4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E2C96AE25DBE279004BD4DD /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		5E2C96B225DBE377004BD4DD /* API+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Extensions.swift"; sourceTree = "<group>"; };
+		5E2C96B525DC14F0004BD4DD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				5E2C96AE25DBE279004BD4DD /* API.swift */,
 				5E2C96B225DBE377004BD4DD /* API+Extensions.swift */,
+				5E2C96B525DC14F0004BD4DD /* NetworkManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				5E2C96B325DBE377004BD4DD /* API+Extensions.swift in Sources */,
 				5E2C969C25DB014E004BD4DD /* ContentView.swift in Sources */,
+				5E2C96B625DC14F0004BD4DD /* NetworkManager.swift in Sources */,
 				5E2C96AF25DBE279004BD4DD /* API.swift in Sources */,
 				5E2C969A25DB014E004BD4DD /* WeatherSwiftUIApp.swift in Sources */,
 			);
