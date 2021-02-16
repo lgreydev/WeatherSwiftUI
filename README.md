@@ -1,6 +1,14 @@
 # Weather  SwiftUI
 An application for iOS that shows the weather, supports geolocation, there is a choice of cities. Asynchronous display of data on one screen. Application uses interactive Lottie animations. Application uses API Open Weather [openweathermap.org](https://openweathermap.org/api/one-call-api)
 
+**Application provides the following weather data for any geographical coordinates:**
+- Current weather
+- Minute forecast for 1 hour
+- Hourly forecast for 48 hours
+- Daily forecast for 7 days
+- National weather alerts
+- Historical weather data for the previous 5 days
+
 ## Technology 
 - SwiftUI
 - View Composition
