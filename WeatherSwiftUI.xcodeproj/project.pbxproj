@@ -11,6 +11,8 @@
 		5E2C969C25DB014E004BD4DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C969B25DB014E004BD4DD /* ContentView.swift */; };
 		5E2C969E25DB0152004BD4DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2C969D25DB0152004BD4DD /* Assets.xcassets */; };
 		5E2C96A125DB0152004BD4DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2C96A025DB0152004BD4DD /* Preview Assets.xcassets */; };
+		5E2C96AF25DBE279004BD4DD /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96AE25DBE279004BD4DD /* API.swift */; };
+		5E2C96B325DBE377004BD4DD /* API+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96B225DBE377004BD4DD /* API+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		5E2C969D25DB0152004BD4DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E2C96A025DB0152004BD4DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E2C96A225DB0152004BD4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E2C96AE25DBE279004BD4DD /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		5E2C96B225DBE377004BD4DD /* API+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,11 @@
 		5E2C969825DB014E004BD4DD /* WeatherSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5E2C96AD25DBE1BA004BD4DD /* LottieAnimations */,
+				5E2C96AC25DBE167004BD4DD /* ViewModels */,
+				5E2C96AB25DBE137004BD4DD /* Views */,
+				5E2C96AA25DBE0FC004BD4DD /* Models */,
+				5E2C96A925DBE0C6004BD4DD /* Networking */,
 				5E2C969925DB014E004BD4DD /* WeatherSwiftUIApp.swift */,
 				5E2C969B25DB014E004BD4DD /* ContentView.swift */,
 				5E2C969D25DB0152004BD4DD /* Assets.xcassets */,
@@ -67,6 +76,43 @@
 				5E2C96A025DB0152004BD4DD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E2C96A925DBE0C6004BD4DD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5E2C96AE25DBE279004BD4DD /* API.swift */,
+				5E2C96B225DBE377004BD4DD /* API+Extensions.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5E2C96AA25DBE0FC004BD4DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E2C96AB25DBE137004BD4DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E2C96AC25DBE167004BD4DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5E2C96AD25DBE1BA004BD4DD /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LottieAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2C96B325DBE377004BD4DD /* API+Extensions.swift in Sources */,
 				5E2C969C25DB014E004BD4DD /* ContentView.swift in Sources */,
+				5E2C96AF25DBE279004BD4DD /* API.swift in Sources */,
 				5E2C969A25DB014E004BD4DD /* WeatherSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
