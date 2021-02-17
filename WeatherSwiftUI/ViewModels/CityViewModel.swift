@@ -14,7 +14,7 @@ final class CityViewModel: ObservableObject {
     
     @Published var city: String = "Zaporizhzhia" {
         didSet {
-           // getLocation()
+            getLocation()
         }
     }
     
@@ -37,7 +37,7 @@ final class CityViewModel: ObservableObject {
     }()
     
     init() {
-        // getLocation()
+         getLocation()
     }
     
     var date: String {
@@ -62,9 +62,62 @@ final class CityViewModel: ObservableObject {
         return "sun.max.fill"
     }
     
-    func getTempFor(temp: Double) -> String {
-        return String(format: "%0.1C", temp)
+    var windSpeed: String {
+        return String(format: "%0.1f", weather.current.wind_speed)
     }
+    
+    var humidity: String {
+        return String(format: "%d%%", weather.current.humidity)
+    }
+    
+    var rainChances: String {
+        return String(format: "%0.0f%%", weather.current.dew_point)
+    }
+    
+    func getTimeFor(timestamp: Int) -> String {
+        return timeFormatter.string(from: Date(timeIntervalSince1970: TimeInterval(timestamp)))
+    }
+    
+    func getTempFor(temp: Double) -> String {
+        return String(format: "%0.1f", temp)
+    }
+    
+    func getDayFor(timestamp: Int) -> String {
+        return dayFormatter.string(from: Date(timeIntervalSince1970: TimeInterval(timestamp)))
+    }
+    
+    private func getLocation() {
+        CLGeocoder().geocodeAddressString(city) { (placemarks, error) in
+            if let paces = placemarks, let place = paces.first {
+                self.getWeather(coord: place.location?.coordinate)
+            }
+        }
+    }
+    
+    private func getWeather(coord: CLLocationCoordinate2D?) {
+        if let coord = coord {
+            let urlString = API.getURLFor(lat: coord.latitude, lon: coord.longitude)
+            getWeatherInternal(city: city, for: urlString)
+        } else {
+            let urlString = API.getURLFor(lat: 37.5485, lon: -121.9886)
+            getWeatherInternal(city: city, for: urlString)
+        }
+    }
+    
+    private func getWeatherInternal(city: String, for urlString: String) {
+        NetworkManager<WeatherResponse>
+            .fetch(for: URL(string: urlString)!) { (result) in
+                switch result {
+                case .success(let response):
+                    DispatchQueue.main.async { self.weather = response }
+                case .failure(let err):
+                    print(err)
+                }
+            }
+         }
+    
+    
+    
 }
 
 
