@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		5E2C96C225DC6885004BD4DD /* DailyWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96C125DC6885004BD4DD /* DailyWeather.swift */; };
 		5E2C96C525DC6968004BD4DD /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96C425DC6968004BD4DD /* Temperature.swift */; };
 		5E2C96C825DD21F5004BD4DD /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96C725DD21F5004BD4DD /* CityViewModel.swift */; };
+		5E2C96CC25DDAC54004BD4DD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5E2C96CB25DDAC54004BD4DD /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2C96CC25DDAC54004BD4DD /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +154,9 @@
 			dependencies = (
 			);
 			name = WeatherSwiftUI;
+			packageProductDependencies = (
+				5E2C96CB25DDAC54004BD4DD /* Lottie */,
+			);
 			productName = WeatherSwiftUI;
 			productReference = 5E2C969625DB014E004BD4DD /* WeatherSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -179,6 +184,9 @@
 				Base,
 			);
 			mainGroup = 5E2C968D25DB014D004BD4DD;
+			packageReferences = (
+				5E2C96CA25DDAC54004BD4DD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 5E2C969725DB014E004BD4DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -404,6 +412,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5E2C96CA25DDAC54004BD4DD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5E2C96CB25DDAC54004BD4DD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E2C96CA25DDAC54004BD4DD /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E2C968E25DB014D004BD4DD /* Project object */;
 }
