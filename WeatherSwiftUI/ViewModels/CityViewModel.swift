@@ -116,8 +116,91 @@ final class CityViewModel: ObservableObject {
             }
          }
     
-    
-    
+    func getLottieAnimationFor(icon: String) -> String {
+        switch icon {
+        case "01d":
+            return "dayClearSky"
+        case "01n":
+            return "nightClearSky"
+        case "02d":
+            return "dayFewClouds"
+        case "02n":
+            return "nightFewClouds"
+        case "03d":
+            return "dayScatteredClouds"
+        case "03n":
+            return "nightScatteredClouds"
+        case "04d":
+            return "dayBrokenClouds"
+        case "04n":
+            return "nightBrokenClouds"
+        case "09d":
+            return "dayShowerRains"
+        case "09n":
+            return "nightShowerRains"
+        case "10d":
+            return "dayRain"
+        case "10n":
+            return "nightRain"
+        case "11d":
+            return "dayThunderstorm"
+        case "11n":
+            return "nightThunderstorm"
+        case "13d":
+            return "daySnow"
+        case "13n":
+            return "nightSnow"
+        case "50d":
+            return "dayMist"
+        case "50n":
+            return "nightMist"
+        default:
+            return "dayClearSky"
+        }
+    }
+  
+    func getWeatherIconFor(inon: String) -> Image {
+        switch inon {
+        case "01d":
+            return Image(systemName: "sun.max.fill") // clear_sky_day
+        case "01n":
+            return Image(systemName: "moon.fill") // clear_sky_night"
+        case "02d":
+            return Image(systemName: "cloud.sun.fill") // few_clouds_day
+        case "02n":
+            return Image(systemName: "cloud.moon.fill") // few_clouds_night
+        case "03d":
+            return Image(systemName: "cloud.fill") // scattered_clouds
+        case "03n":
+            return Image(systemName: "cloud.fill") // scattered_clouds
+        case "04d":
+            return Image(systemName: "cloud.fill") // broken_clouds
+        case "04n":
+            return Image(systemName: "cloud.fill") // broken_clouds
+        case "09d":
+            return Image(systemName: "cloud.drizzle.fill") // shower_rain
+        case "09n":
+            return Image(systemName: "cloud.drizzle.fill") // shower_rain
+        case "10d":
+            return Image(systemName: "cloud.heavyrain.fill") // rain_day
+        case "10n":
+            return Image(systemName: "cloud.heavyrain.fill") // rain_night
+        case "11d":
+            return Image(systemName: "cloud.bolt.fill") // thunderstorm_day
+        case "11n":
+            return Image(systemName: "cloud.bolt.fill") // thunderstorm_night
+        case "13d":
+            return Image(systemName: "cloud.show.fill") // show
+        case "13n":
+            return Image(systemName: "cloud.show.fill") // show
+        case "50d":
+            return Image(systemName: "cloud.fog.fill") // mist
+        case "50n":
+            return Image(systemName: "cloud.fog.fill") // mist
+        default:
+            return Image(systemName: "sun.max.fill")
+        }
+    }
 }
 
 
