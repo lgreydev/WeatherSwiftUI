@@ -41,3 +41,4 @@ struct Weather: Codable, Identifiable {
 extension Weather {
     var id: UUID { return UUID() }
 }
+
