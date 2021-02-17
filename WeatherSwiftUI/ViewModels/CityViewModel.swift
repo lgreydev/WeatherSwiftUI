@@ -119,13 +119,13 @@ final class CityViewModel: ObservableObject {
     func getLottieAnimationFor(icon: String) -> String {
         switch icon {
         case "01d":
-            return "dayClearSky"
+            return "dayClearSky" // ok
         case "01n":
-            return "nightClearSky"
+            return "nightClearSky" // ok
         case "02d":
-            return "dayFewClouds"
+            return "dayFewClouds" // ok
         case "02n":
-            return "nightFewClouds"
+            return "nightFewClouds" // ok
         case "03d":
             return "dayScatteredClouds"
         case "03n":
