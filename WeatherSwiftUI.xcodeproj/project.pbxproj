@@ -42,6 +42,7 @@
 		5E2C96F425DE3C50004BD4DD /* nightThunderstorm.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E2C96E225DE3C50004BD4DD /* nightThunderstorm.json */; };
 		5E2C96F725DE52DE004BD4DD /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96F625DE52DE004BD4DD /* MenuHeaderView.swift */; };
 		5E2C96FA25DE5AC4004BD4DD /* CityNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96F925DE5AC4004BD4DD /* CityNameView.swift */; };
+		5E7F196925DE7BEB00A075FE /* TodayWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7F196825DE7BEB00A075FE /* TodayWeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		5E2C96E225DE3C50004BD4DD /* nightThunderstorm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightThunderstorm.json; sourceTree = "<group>"; };
 		5E2C96F625DE52DE004BD4DD /* MenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
 		5E2C96F925DE5AC4004BD4DD /* CityNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNameView.swift; sourceTree = "<group>"; };
+		5E7F196825DE7BEB00A075FE /* TodayWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				5E2C96CE25DDB0E4004BD4DD /* LottieView.swift */,
 				5E2C96F625DE52DE004BD4DD /* MenuHeaderView.swift */,
 				5E2C96F925DE5AC4004BD4DD /* CityNameView.swift */,
+				5E7F196825DE7BEB00A075FE /* TodayWeatherView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				5E2C96F725DE52DE004BD4DD /* MenuHeaderView.swift in Sources */,
 				5E2C969A25DB014E004BD4DD /* WeatherSwiftUIApp.swift in Sources */,
 				5E2C96BC25DC6800004BD4DD /* Weather.swift in Sources */,
+				5E7F196925DE7BEB00A075FE /* TodayWeatherView.swift in Sources */,
 				5E2C96C525DC6968004BD4DD /* Temperature.swift in Sources */,
 				5E2C96C225DC6885004BD4DD /* DailyWeather.swift in Sources */,
 				5E2C96CF25DDB0E4004BD4DD /* LottieView.swift in Sources */,

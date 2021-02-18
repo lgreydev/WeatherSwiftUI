@@ -48,7 +48,7 @@ final class CityViewModel: ObservableObject {
         if weather.current.weather.count > 0 {
             return weather.current.weather[0].icon
         }
-        return ""
+        return "dayClearSky"
     }
     
     var temperature: String {
