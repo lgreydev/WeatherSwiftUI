@@ -45,6 +45,7 @@
 		5E7F196925DE7BEB00A075FE /* TodayWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7F196825DE7BEB00A075FE /* TodayWeatherView.swift */; };
 		5E89A09B25DEBE0100F31241 /* HourlyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89A09A25DEBE0100F31241 /* HourlyWeatherView.swift */; };
 		5E89A09E25DEE52700F31241 /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89A09D25DEE52700F31241 /* DailyWeatherView.swift */; };
+		5E89A0A125DEF26500F31241 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89A0A025DEF26500F31241 /* CityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		5E7F196825DE7BEB00A075FE /* TodayWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherView.swift; sourceTree = "<group>"; };
 		5E89A09A25DEBE0100F31241 /* HourlyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherView.swift; sourceTree = "<group>"; };
 		5E89A09D25DEE52700F31241 /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
+		5E89A0A025DEF26500F31241 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				5E7F196825DE7BEB00A075FE /* TodayWeatherView.swift */,
 				5E89A09A25DEBE0100F31241 /* HourlyWeatherView.swift */,
 				5E89A09D25DEE52700F31241 /* DailyWeatherView.swift */,
+				5E89A0A025DEF26500F31241 /* CityView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				5E2C96FA25DE5AC4004BD4DD /* CityNameView.swift in Sources */,
 				5E2C96BF25DC6822004BD4DD /* WeatherDetail.swift in Sources */,
 				5E2C96B925DC6682004BD4DD /* WeatherResponse.swift in Sources */,
+				5E89A0A125DEF26500F31241 /* CityView.swift in Sources */,
 				5E2C969C25DB014E004BD4DD /* ContentView.swift in Sources */,
 				5E2C96B625DC14F0004BD4DD /* NetworkManager.swift in Sources */,
 				5E2C96AF25DBE279004BD4DD /* API.swift in Sources */,
