@@ -41,6 +41,7 @@
 		5E2C96F325DE3C50004BD4DD /* nightRain.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E2C96E125DE3C50004BD4DD /* nightRain.json */; };
 		5E2C96F425DE3C50004BD4DD /* nightThunderstorm.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E2C96E225DE3C50004BD4DD /* nightThunderstorm.json */; };
 		5E2C96F725DE52DE004BD4DD /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96F625DE52DE004BD4DD /* MenuHeaderView.swift */; };
+		5E2C96FA25DE5AC4004BD4DD /* CityNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96F925DE5AC4004BD4DD /* CityNameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		5E2C96E125DE3C50004BD4DD /* nightRain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightRain.json; sourceTree = "<group>"; };
 		5E2C96E225DE3C50004BD4DD /* nightThunderstorm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nightThunderstorm.json; sourceTree = "<group>"; };
 		5E2C96F625DE52DE004BD4DD /* MenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
+		5E2C96F925DE5AC4004BD4DD /* CityNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			children = (
 				5E2C96CE25DDB0E4004BD4DD /* LottieView.swift */,
 				5E2C96F625DE52DE004BD4DD /* MenuHeaderView.swift */,
+				5E2C96F925DE5AC4004BD4DD /* CityNameView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			files = (
 				5E2C96B325DBE377004BD4DD /* API+Extensions.swift in Sources */,
 				5E2C96C825DD21F5004BD4DD /* CityViewModel.swift in Sources */,
+				5E2C96FA25DE5AC4004BD4DD /* CityNameView.swift in Sources */,
 				5E2C96BF25DC6822004BD4DD /* WeatherDetail.swift in Sources */,
 				5E2C96B925DC6682004BD4DD /* WeatherResponse.swift in Sources */,
 				5E2C969C25DB014E004BD4DD /* ContentView.swift in Sources */,

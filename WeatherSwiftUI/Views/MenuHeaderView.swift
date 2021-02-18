@@ -13,7 +13,6 @@ struct MenuHeaderView: View {
     @State private var searchTerm = "Zaporizhzhia"
     
     var body: some View {
-       
         HStack {
             TextField("", text: $searchTerm)
                 .padding(.leading, 20.0)
