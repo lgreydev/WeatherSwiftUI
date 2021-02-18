@@ -127,35 +127,35 @@ final class CityViewModel: ObservableObject {
         case "02n":
             return "nightFewClouds" // ok
         case "03d":
-            return "dayScatteredClouds"
+            return "dayScatteredClouds" // ok
         case "03n":
-            return "nightScatteredClouds"
+            return "nightScatteredClouds" // ok
         case "04d":
-            return "dayBrokenClouds"
+            return "dayBrokenClouds" // ok
         case "04n":
-            return "nightBrokenClouds"
+            return "nightBrokenClouds" // ok
         case "09d":
-            return "dayShowerRains"
+            return "dayShowerRains" // ok
         case "09n":
-            return "nightShowerRains"
+            return "nightShowerRains" // ok
         case "10d":
-            return "dayRain"
+            return "dayRain" // ok
         case "10n":
-            return "nightRain"
+            return "nightRain" // ok
         case "11d":
-            return "dayThunderstorm"
+            return "dayThunderstorm" // ok
         case "11n":
-            return "nightThunderstorm"
+            return "nightThunderstorm" // ok
         case "13d":
-            return "daySnow"
+            return "daySnow" // ok
         case "13n":
-            return "nightSnow"
+            return "nightSnow" // ok
         case "50d":
-            return "dayMist"
+            return "dayMist" // ok
         case "50n":
-            return "nightMist"
+            return "nightMist" // ok
         default:
-            return "dayClearSky"
+            return "dayClearSky" // ok
         }
     }
   
