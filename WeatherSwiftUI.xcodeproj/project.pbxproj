@@ -44,6 +44,7 @@
 		5E2C96FA25DE5AC4004BD4DD /* CityNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96F925DE5AC4004BD4DD /* CityNameView.swift */; };
 		5E7F196925DE7BEB00A075FE /* TodayWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7F196825DE7BEB00A075FE /* TodayWeatherView.swift */; };
 		5E89A09B25DEBE0100F31241 /* HourlyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89A09A25DEBE0100F31241 /* HourlyWeatherView.swift */; };
+		5E89A09E25DEE52700F31241 /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89A09D25DEE52700F31241 /* DailyWeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		5E2C96F925DE5AC4004BD4DD /* CityNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNameView.swift; sourceTree = "<group>"; };
 		5E7F196825DE7BEB00A075FE /* TodayWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherView.swift; sourceTree = "<group>"; };
 		5E89A09A25DEBE0100F31241 /* HourlyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherView.swift; sourceTree = "<group>"; };
+		5E89A09D25DEE52700F31241 /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				5E2C96F925DE5AC4004BD4DD /* CityNameView.swift */,
 				5E7F196825DE7BEB00A075FE /* TodayWeatherView.swift */,
 				5E89A09A25DEBE0100F31241 /* HourlyWeatherView.swift */,
+				5E89A09D25DEE52700F31241 /* DailyWeatherView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E89A09E25DEE52700F31241 /* DailyWeatherView.swift in Sources */,
 				5E89A09B25DEBE0100F31241 /* HourlyWeatherView.swift in Sources */,
 				5E2C96B325DBE377004BD4DD /* API+Extensions.swift in Sources */,
 				5E2C96C825DD21F5004BD4DD /* CityViewModel.swift in Sources */,
