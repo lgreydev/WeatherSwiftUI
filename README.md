@@ -6,8 +6,7 @@ An application for iOS that shows the weather, supports geolocation, there is a 
 - Minute forecast for 1 hour
 - Hourly forecast for 48 hours
 - Daily forecast for 7 days
-- National weather alerts
-- Historical weather data for the previous 5 days
+- Weather alerts
 
 ## Technology 
 - SwiftUI
