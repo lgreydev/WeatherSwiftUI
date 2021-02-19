@@ -23,7 +23,7 @@ struct TodayWeatherView: View {
                     .frame(width: 100.0, height: 100.0)
                 
                 VStack(alignment: .leading) {
-                    Text("\(cityVM.temperature)℃")
+                    Text("\(cityVM.temperature)°")
                         .font(.system(size: 42))
                     Text("\(cityVM.conditions)")
                 }

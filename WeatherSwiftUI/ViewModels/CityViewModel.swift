@@ -71,7 +71,7 @@ final class CityViewModel: ObservableObject {
     }
     
     var rainChances: String {
-        return String(format: "%0.0f%%", weather.current.dew_point)
+        return String(format: "%0.0f%%", weather.current.uvi)
     }
     
     func getTimeFor(timestamp: Int) -> String {
@@ -79,7 +79,7 @@ final class CityViewModel: ObservableObject {
     }
     
     func getTempFor(temp: Double) -> String {
-        return String(format: "%0.1f", temp)
+        return String(format: "%0.0f", temp)
     }
     
     func getDayFor(timestamp: Int) -> String {
@@ -190,9 +190,9 @@ final class CityViewModel: ObservableObject {
         case "11n":
             return Image(systemName: "cloud.bolt.fill") // thunderstorm_night
         case "13d":
-            return Image(systemName: "cloud.show.fill") // show
+            return Image(systemName: "cloud.snow.fill") // show
         case "13n":
-            return Image(systemName: "cloud.show.fill") // show
+            return Image(systemName: "cloud.show") // show
         case "50d":
             return Image(systemName: "cloud.fog.fill") // mist
         case "50n":
