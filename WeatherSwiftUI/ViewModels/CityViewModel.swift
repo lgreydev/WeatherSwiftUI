@@ -190,9 +190,9 @@ final class CityViewModel: ObservableObject {
         case "11n":
             return Image(systemName: "cloud.bolt.fill") // thunderstorm_night
         case "13d":
-            return Image(systemName: "cloud.snow.fill") // show
+            return Image(systemName: "cloud.hail") // show
         case "13n":
-            return Image(systemName: "cloud.show") // show
+            return Image(systemName: "cloud.hail.fill") // show
         case "50d":
             return Image(systemName: "cloud.fog.fill") // mist
         case "50n":
