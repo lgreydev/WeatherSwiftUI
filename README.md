@@ -1,3 +1,6 @@
+### App on development stage....
+
+
 # Weather  SwiftUI
 An application for iOS that shows the weather, supports geolocation, there is a choice of cities. Asynchronous display of data on one screen. Application uses interactive Lottie Animations [lottiefiles.com](https://lottiefiles.com). Application uses API Open Weather [openweathermap.org](https://openweathermap.org/api/one-call-api)
 
