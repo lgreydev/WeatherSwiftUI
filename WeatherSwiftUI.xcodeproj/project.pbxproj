@@ -44,6 +44,7 @@
 		5E2C96FA25DE5AC4004BD4DD /* CityNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C96F925DE5AC4004BD4DD /* CityNameView.swift */; };
 		5E7B373B25F2586F00D22BED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5E7B373A25F2586E00D22BED /* README.md */; };
 		5E7BE5D025FEBBB800CD9232 /* WeatherScrinshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E7BE5CF25FEBBB800CD9232 /* WeatherScrinshot.jpg */; };
+		5E7BE5DC25FEC3D200CD9232 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E7BE5DB25FEC3D200CD9232 /* .gitignore */; };
 		5E7F196925DE7BEB00A075FE /* TodayWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7F196825DE7BEB00A075FE /* TodayWeatherView.swift */; };
 		5E89A09B25DEBE0100F31241 /* HourlyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89A09A25DEBE0100F31241 /* HourlyWeatherView.swift */; };
 		5E89A09E25DEE52700F31241 /* DailyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E89A09D25DEE52700F31241 /* DailyWeatherView.swift */; };
@@ -89,6 +90,7 @@
 		5E2C96F925DE5AC4004BD4DD /* CityNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNameView.swift; sourceTree = "<group>"; };
 		5E7B373A25F2586E00D22BED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5E7BE5CF25FEBBB800CD9232 /* WeatherScrinshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WeatherScrinshot.jpg; sourceTree = "<group>"; };
+		5E7BE5DB25FEC3D200CD9232 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5E7F196825DE7BEB00A075FE /* TodayWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherView.swift; sourceTree = "<group>"; };
 		5E89A09A25DEBE0100F31241 /* HourlyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherView.swift; sourceTree = "<group>"; };
 		5E89A09D25DEE52700F31241 /* DailyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		5E2C968D25DB014D004BD4DD = {
 			isa = PBXGroup;
 			children = (
+				5E7BE5DB25FEC3D200CD9232 /* .gitignore */,
 				5E7B373A25F2586E00D22BED /* README.md */,
 				5E2C969825DB014E004BD4DD /* WeatherSwiftUI */,
 				5E2C969725DB014E004BD4DD /* Products */,
@@ -295,6 +298,7 @@
 				5E2C96E825DE3C50004BD4DD /* nightClearSky.json in Resources */,
 				5E7B373B25F2586F00D22BED /* README.md in Resources */,
 				5E2C96E325DE3C50004BD4DD /* nightShowerRains.json in Resources */,
+				5E7BE5DC25FEC3D200CD9232 /* .gitignore in Resources */,
 				5E2C96F325DE3C50004BD4DD /* nightRain.json in Resources */,
 				5E2C96EB25DE3C50004BD4DD /* nightFewClouds.json in Resources */,
 				5E2C969E25DB0152004BD4DD /* Assets.xcassets in Resources */,
