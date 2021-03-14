@@ -164,7 +164,7 @@ final class CityViewModel: ObservableObject {
         case "01d":
             return Image(systemName: "sun.max.fill") // clear_sky_day
         case "01n":
-            return Image(systemName: "moon.fill") // clear_sky_night"
+            return Image(systemName: "moon.fill") // clear_sky_night
         case "02d":
             return Image(systemName: "cloud.sun.fill") // few_clouds_day
         case "02n":
