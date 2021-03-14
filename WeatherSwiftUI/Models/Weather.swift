@@ -14,7 +14,7 @@ struct Weather: Codable, Identifiable {
     var feels_like: Double
     var pressure: Int
     var humidity: Int
-    var uvi: Double     // dew_point?
+    var dew_point: Double     // dew_point?
     var clouds: Double
     var wind_speed: Double
     var wind_deg: Int
@@ -30,7 +30,7 @@ struct Weather: Codable, Identifiable {
         feels_like = 0.0
         pressure = 0
         humidity = 0
-        uvi = 0.0
+        dew_point = 0.0
         clouds = 0.0
         wind_speed = 0.0
         wind_deg = 0
