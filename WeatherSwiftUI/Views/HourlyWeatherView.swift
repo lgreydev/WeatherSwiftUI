@@ -18,7 +18,7 @@ struct HourlyWeatherView: View {
                     let icon = cityVM.getWeatherIconFor(inon: weather.weather.count > 0 ? weather.weather[0].icon : "sun.max.fill")
                     let hour = cityVM.getTimeFor(timestamp: weather.dt)
                     let temp = cityVM.getTempFor(temp: weather.temp)
-                    getHourlyView(hour: hour, image: icon, temp: temp)
+                    getHourlyView(hour: hour, image: icon, temp: temp + "°")
                 }
             }
         }

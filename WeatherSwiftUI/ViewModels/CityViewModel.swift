@@ -12,7 +12,7 @@ final class CityViewModel: ObservableObject {
     
     @Published var weather = WeatherResponse.empty()
     
-    @Published var city: String = "Zaporizhzhia" {
+    @Published var city: String = "Los Angeles" {
         didSet {
             getLocation()
         }
