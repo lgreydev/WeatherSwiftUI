@@ -30,10 +30,9 @@ An application for iOS that shows the weather, supports geolocation, there is a 
 - Swift 5.3
 
 ## Install
-1. Download zip master `https://github.com/l-grey-dev/WeatherSwiftUI/archive/master.zip`
-2. Open project
-3. Register on the site `https://openweathermap.org`  
-4. Create API key `https://home.openweathermap.org/api_keys`
-5. Insert your API key to `let key = ""`  file `API.swift`
-6. Run app
+1. Open project
+2. Register on the site `https://openweathermap.org`  
+3. Create API key `https://home.openweathermap.org/api_keys`
+4. Insert your API key to `let key = ""`  file `API.swift`
+5. Run app
 
